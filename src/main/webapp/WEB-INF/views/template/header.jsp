@@ -48,7 +48,7 @@
 	      <div class="item active">
 	        <img src="${pageContext.request.contextPath}/resources/images/la.jpg" alt="Los Angeles" style="width:100%;">
 	        <div class="carousel-caption">
-	          <h3>Los Angeles</h3>
+	          <h3>Los Angeleㅇㅇs</h3>
 	          <p>LA is always so much fun!</p>
 	        </div>
 	      </div>
