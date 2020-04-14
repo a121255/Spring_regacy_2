@@ -12,7 +12,7 @@
 		<c:import url="../template/header.jsp"></c:import>  <!-- header.jsp -->
 		
 		<div class="container">
-			<h1>Member Login</h1>
+			<h1>Member Mypage</h1>
 			
 			
 			<table class="table">

@@ -46,7 +46,7 @@
 		 	 <div class="form-group">
 		     	<label class="control-label col-sm-2" for="email">ID:</label>
 		     	<div class="col-sm-10">
-		     	  <input type="text" class="form-control" id="email" placeholder="ID" name="id">
+		     	  <input type="text" class="form-control" id="email" value="${id}" placeholder="ID" name="id">
 		    	 </div>
 		    </div>
 		    
