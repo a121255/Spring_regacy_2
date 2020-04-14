@@ -121,8 +121,13 @@ public class MemberController {
 		return path;
 	}
 	
-	
-	
+	@RequestMapping(value="memberLogout")
+	public String memberLogout(HttpSession session) {
+		session.invalidate();
+		
+		
+		return "../";
+	}
 	
 	
 	
