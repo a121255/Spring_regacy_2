@@ -4,17 +4,26 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+import org.springframework.stereotype.Repository;
+
 import com.iu.util.DBConnect;
 
+
+@Repository
 public class MemberDAO {
 	
-	public MemberDAO() {
-		System.out.println("ㅜㅜ");
+	
+	//위에 Repository 썼는데 이거 안 만들어도 되지 않나요?ㅠㅠ
+	 public MemberDAO() { 
+		 System.out.println("ㅜㅜ"); 
 	}
+	 
 	
-	
-	
-	
+	 
+	 /* public void setMemberDAO() {
+	 * 
+	 * }
+	 */
 	
 	
 	public int memberUpdate(MemberVO memberVO) throws Exception {
